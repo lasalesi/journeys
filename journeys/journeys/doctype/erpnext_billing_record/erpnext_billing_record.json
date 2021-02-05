@@ -1,0 +1,76 @@
+{
+ "creation": "2018-10-18 20:22:25.115959",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plan",
+  "transaction_id",
+  "billing_date",
+  "next_expiry_date",
+  "no_of_users",
+  "disk_space",
+  "no_of_emails"
+ ],
+ "fields": [
+  {
+   "fieldname": "plan",
+   "fieldtype": "Data",
+   "label": "Plan"
+  },
+  {
+   "fieldname": "transaction_id",
+   "fieldtype": "Data",
+   "label": "Transaction ID"
+  },
+  {
+   "fieldname": "billing_date",
+   "fieldtype": "Data",
+   "label": "Billing Date"
+  },
+  {
+   "fieldname": "next_expiry_date",
+   "fieldtype": "Data",
+   "label": "Next Expiry Date"
+  },
+  {
+   "fieldname": "no_of_users",
+   "fieldtype": "Data",
+   "label": "No of Users"
+  },
+  {
+   "fieldname": "disk_space",
+   "fieldtype": "Data",
+   "label": "Disk Space"
+  },
+  {
+   "fieldname": "no_of_emails",
+   "fieldtype": "Data",
+   "label": "No of Emails"
+  }
+ ],
+ "modified": "2021-02-05 19:55:08.721353",
+ "modified_by": "Administrator",
+ "module": "Journeys",
+ "name": "ERPNext Billing Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1
+}

@@ -1,0 +1,101 @@
+{
+ "autoname": "format:POST-{######}",
+ "creation": "2018-10-05 20:18:53.372247",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "content",
+  "customer",
+  "site_name",
+  "author",
+  "seen",
+  "last_reply_by",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Content"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "label": "Site Name"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "default": "0",
+   "fieldname": "seen",
+   "fieldtype": "Check",
+   "label": "seen"
+  },
+  {
+   "fieldname": "last_reply_by",
+   "fieldtype": "Data",
+   "label": "Last Reply By"
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nClosed"
+  }
+ ],
+ "modified": "2021-02-05 19:54:59.913782",
+ "modified_by": "Administrator",
+ "module": "Journeys",
+ "name": "Customer Post",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "title",
+ "track_changes": 1
+}
